@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="eng-us">
-   <head>
-     <meta charset="utf-8"/>
-     <title>Is it Misato monday?</title>
-     <link rel="stylesheet" href="style_index.css"> 
-   </head>
-   <body>
-     <div class="title">
-     	<img src="misato_hehe.jpg" alt="Misato dancing"/>
-       <h1>IS IT MISATO MONDAY?</h1>
-     </div>
-     <div class="calendar-header">
-     	<h1>TODAY:</h1>
-     </div>
-     <div class="calendar-page">
-     	<p>
-        	<script>
-            	var now = new Date();
-            	var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-                var today = days[now.getDay()]
-                document.write(today);
-            </script>
-        </p>
-        <h2 class="message">
-        	<script>
-              if (today != "Monday")
-              {
-                  document.write("It's not Misato monday!");
-              }
-              else
-              {
-                  document.write("It's Misato monday!");
-              }
-            </script>
-        </h2>
-     </div>
-   </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Is it Misato monday?</title>
+    <link rel="stylesheet" href="style_index.css">
+  </head>
+  <body>
+    <div class="title">
+      <img src="misato_hehe.jpg" alt="Misato dancing" />
+      <h1>IS IT MISATO MONDAY?</h1>
+    </div>
+    <div class="calendar-header">
+      <h1>TODAY:</h1>
+    </div>
+    <div class="calendar-page">
+      <p>
+        <script>
+          var now = new Date();
+          var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+          var today = days[now.getDay()]
+          document.write(today);
+        </script>
+      </p>
+      <h2 class="message">
+        <script>
+          if (today != "Monday") {
+            document.write("It's not Misato monday!");
+          } else {
+            document.write("It's Misato monday!");
+          }
+        </script>
+      </h2>
+    </div>
+  </body>
 </html>
