@@ -25,14 +25,13 @@ body {
 }
  .title h1 {
      position: relative;
+     top: -10px;
      color: #1d1a2f;
      font-family: Arial;
      text-align: center;
+     font-size: 30px;
      word-spacing: 2px;
      letter-spacing: 2px;
-     width: 400px;
-     height: 50px;
-     top: -17px;
 }
  .calendar-header {
      display: block;
