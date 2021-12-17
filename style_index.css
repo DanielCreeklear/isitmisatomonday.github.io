@@ -23,7 +23,7 @@ body {
      border-bottom-right-radius: 0px;
      background: #555;
 }
- .title h1 {
+ .title p {
      position: relative;
      top: -10px;
      color: #1d1a2f;
@@ -46,7 +46,7 @@ body {
      width: 600px;
      height: 30px;
 }
- .calendar-header h1 {
+ .calendar-header p {
      color: #8bd450;
      font-family: Verdana;
      font-size: 20px;
