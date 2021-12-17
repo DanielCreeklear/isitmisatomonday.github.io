@@ -1,0 +1,88 @@
+body {
+          background-color: #8bd450;
+        }
+        .title {
+          display: block;
+          background-color: #734f9a;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: solid;
+          border-width: 3px;
+          border-color: #1d1a2f;
+          border-radius: 10px;
+          
+          width: 400px;
+          height: 82px;
+        }
+        .title img {
+          float: left;
+  		  width: 100px;
+ 		  height: 82px;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 0px;
+  		  background: #555;
+        }
+        .title h1 {
+          position: relative;
+          color: #1d1a2f;
+          font-family: Arial;
+          text-align: center;
+          word-spacing: 2px;
+          letter-spacing: 2px;
+          width: 400px;
+          height: 50px;
+          top: -17px;
+		}
+        .calendar-header {
+          display: block;
+          margin-top: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #1d1a2f;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          width: 600px;
+          height: 30px;
+        }
+        .calendar-header h1 {
+          color: #8bd450;
+          font-family: Verdana;
+          font-size: 20px;
+          text-align: center;
+        }
+        .calendar-page {
+          display: block;
+          position: relative;
+          margin-top: -95px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #734f9a;
+          border-top-left-radius: 0px;
+          border-top-right-radius: 0px;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          width: 600px;
+          height: 200px;
+        }
+        .calendar-page p {
+          color: #8bd450;
+          font-family: Arial;
+          font-size: 100px;
+          text-align: center;
+          text-transform: uppercase;
+          position: relative;
+          top: 25px;
+        }
+        .message {
+          color: #1d1a2f;
+          font-family: Arial;
+          font-size: 15px;
+          text-align: center;
+          text-transform: uppercase;
+          position: relative;
+          top: -60px;
+        }
