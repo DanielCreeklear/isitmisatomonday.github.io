@@ -2,13 +2,37 @@
 <html lang="eng-us">
   <head>
     <meta charset="utf-8" />
-    <title>Today is Misato monday?</title>
+    <script>
+      var now = new Date();
+      var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      var today = days[now.getDay()];
+    </script>
+    <title>
+      <script>
+        if (today == "Monday") {
+          document.write("Today is Misato monday");
+        } else {
+          document.write("Is today Misato monday?");
+        }
+      </script>
+    </title>
     <link rel="stylesheet" href="style_index.css">
   </head>
   <body>
     <div class="title">
       <img src="misato_hehe.jpg" alt="Misato dancing" />
-      <p>TODAY IS MISATO MONDAY?</p>
+      <p>
+        <script>
+          if (today == "Monday")
+          {
+            document.write("TODAY IS MISATO MONDAY");
+          }
+          else
+          {
+            document.write("IS TODAY MISATO MONDAY?");
+          }
+        </script>
+      </p>
     </div>
     <div class="calendar-header">
       <p>TODAY:</p>
@@ -16,9 +40,6 @@
     <div class="calendar-page">
       <p>
         <script>
-          var now = new Date();
-          var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-          var today = days[now.getDay()]
           document.write(today);
         </script>
       </p>
