@@ -1,2 +1,2 @@
-# Today is Misato monday?
+# Is today Misato monday?
 Maybe you watched Evangelion, but did you get the ending?
