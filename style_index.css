@@ -1,86 +1,116 @@
 body {
-     background-color: #8bd450;
+    background-color: #8bd450;
 }
- .title {
-     display: block;
-     background-color: #734f9a;
-     margin-left: auto;
-     margin-right: auto;
-     border-style: solid;
-     border-width: 3px;
-     border-color: #1d1a2f;
-     border-radius: 10px;
-     width: 400px;
-     height: 82px;
+.title {
+    display: block;
+    background-color: #734f9a;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #1d1a2f;
+    border-radius: 10px;
+    width: 400px;
+    height: 82px;
 }
- .title img {
-     float: left;
-     width: 100px;
-     height: 82px;
-     border-top-left-radius: 8px;
-     border-top-right-radius: 0px;
-     border-bottom-left-radius: 8px;
-     border-bottom-right-radius: 0px;
-     background: #555;
+.title img {
+    float: left;
+    width: 100px;
+    height: 82px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    background: #555;
 }
- .title p {
-     position: relative;
-     top: -20px;
-     color: #1d1a2f;
-     font-family: Arial;
-     text-align: center;
-     font-size: 30px;
-     word-spacing: 2px;
-     letter-spacing: 2px;
+.title p {
+    position: relative;
+    top: -20px;
+    color: #1d1a2f;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
- .calendar-header {
-     display: block;
-     margin-top: 30px;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: #1d1a2f;
-     border-top-left-radius: 50px;
-     border-top-right-radius: 50px;
-     border-bottom-left-radius: 0px;
-     border-bottom-right-radius: 0px;
-     width: 600px;
-     height: 30px;
+.calendar-header {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1d1a2f;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 600px;
+    height: 30px;
 }
- .calendar-header p {
-     color: #8bd450;
-     font-family: Verdana;
-     font-size: 20px;
-     text-align: center;
+.calendar-header p {
+    color: #8bd450;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
 }
- .calendar-page {
-     display: block;
-     position: relative;
-     margin-top: -95px;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: #734f9a;
-     border-top-left-radius: 0px;
-     border-top-right-radius: 0px;
-     border-bottom-left-radius: 10px;
-     border-bottom-right-radius: 10px;
-     width: 600px;
-     height: 200px;
+.calendar-page {
+    display: block;
+    position: relative;
+    margin-top: -95px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #734f9a;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 600px;
+    height: 200px;
 }
- .calendar-page p {
-     color: #8bd450;
-     font-family: Arial;
-     font-size: 100px;
-     text-align: center;
-     text-transform: uppercase;
-     position: relative;
-     top: 25px;
+.calendar-page p {
+    color: #8bd450;
+    font-family: Arial;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
 }
- .message {
-     color: #1d1a2f;
-     font-family: Arial;
-     font-size: 15px;
-     text-align: center;
-     text-transform: uppercase;
-     position: relative;
-     top: -60px;
+.message {
+    color: #1d1a2f;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -60px;
+}
+.player {
+    width: 300px;
+    height: 70px;
+    background-color: #1d1a2f;
+    border-radius: 10px;
+}
+.sound-player {
+    width: 50px;
+    height: 40px;
+    top: 10px;
+}
+.player img{
+    width: 80px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.player p {
+    position: relative;
+    top: -130px;
+    left: 45px;
+    color: #734f9a;
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
 }
