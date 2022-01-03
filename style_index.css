@@ -3,6 +3,7 @@ body {
 }
 .title {
     display: block;
+    position: relative;
     background-color: #734f9a;
     margin-left: auto;
     margin-right: auto;
@@ -14,6 +15,7 @@ body {
     height: 82px;
 }
 .title img {
+    position: relative;
     float: left;
     width: 100px;
     height: 82px;
@@ -23,9 +25,9 @@ body {
     border-bottom-right-radius: 0px;
     background: #555;
 }
-.title p {
+.title h1 {
     position: relative;
-    top: -20px;
+    top: -10px;
     color: #1d1a2f;
     font-family: Arial;
     text-align: center;
@@ -35,6 +37,7 @@ body {
 }
 .calendar-header {
     display: block;
+    position: relative;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -69,7 +72,7 @@ body {
 .calendar-page p {
     color: #8bd450;
     font-family: Arial;
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
@@ -78,7 +81,7 @@ body {
 .message {
     color: #1d1a2f;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     text-transform: uppercase;
     position: relative;
